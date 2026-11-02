@@ -1,0 +1,13 @@
+{
+  "name": "YOND gru32n",
+  "version": "yond-gru32n",
+  "contract": 1,
+  "fp32": "yond-gru32n.fp32.onnx",
+  "fp16": "yond-gru32n.fp16.onnx",
+  "tile": 1024,
+  "overlap": 128,
+  "multiple": 16,
+  "trained": "unprocessed LSDIR and SID images, Gaussian noise in the transform's domain",
+  "licence": "MIT; weights trained on research datasets (DIV2K, LSDIR, SID)",
+  "source": "https://huggingface.co/spaces/hansen97/YOND/"
+}

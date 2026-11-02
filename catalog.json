@@ -1,0 +1,158 @@
+{
+  "runtime": {
+    "package": "microsoft.windows.ai.machinelearning",
+    "version": "2.4.89"
+  },
+  "files": [
+    {
+      "component": "runtime",
+      "target": "runtime/onnxruntime.dll",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.ai.machinelearning/2.4.89/microsoft.windows.ai.machinelearning.2.4.89.nupkg",
+      "entry": "runtimes/win-x64/native/onnxruntime.dll",
+      "download": 51594185,
+      "sha256": "5c68ecfb947223267abf159a023f5192ad42725e4e9cc995e7c1470dd54dff63",
+      "size": 23086440,
+      "use": "all"
+    },
+    {
+      "component": "runtime",
+      "target": "runtime/DirectML.dll",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.ai.machinelearning/2.4.89/microsoft.windows.ai.machinelearning.2.4.89.nupkg",
+      "entry": "runtimes/win-x64/native/DirectML.dll",
+      "download": 51594185,
+      "sha256": "5c68ecfb947223267abf159a023f5192ad42725e4e9cc995e7c1470dd54dff63",
+      "size": 18700264,
+      "use": "all"
+    },
+    {
+      "component": "runtime",
+      "target": "runtime/Microsoft.Windows.AI.MachineLearning.dll",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.ai.machinelearning/2.4.89/microsoft.windows.ai.machinelearning.2.4.89.nupkg",
+      "entry": "runtimes/win-x64/native/Microsoft.Windows.AI.MachineLearning.dll",
+      "download": 51594185,
+      "sha256": "5c68ecfb947223267abf159a023f5192ad42725e4e9cc995e7c1470dd54dff63",
+      "size": 971504,
+      "use": "all"
+    },
+    {
+      "component": "runtime",
+      "target": "runtime/license.txt",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.ai.machinelearning/2.4.89/microsoft.windows.ai.machinelearning.2.4.89.nupkg",
+      "entry": "license.txt",
+      "download": 51594185,
+      "sha256": "5c68ecfb947223267abf159a023f5192ad42725e4e9cc995e7c1470dd54dff63",
+      "size": 13996,
+      "use": "all"
+    },
+    {
+      "component": "runtime",
+      "target": "runtime/ThirdPartyNotices.txt",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.ai.machinelearning/2.4.89/microsoft.windows.ai.machinelearning.2.4.89.nupkg",
+      "entry": "ThirdPartyNotices.txt",
+      "download": 51594185,
+      "sha256": "5c68ecfb947223267abf159a023f5192ad42725e4e9cc995e7c1470dd54dff63",
+      "size": 331175,
+      "use": "all"
+    },
+    {
+      "component": "denoise",
+      "target": "denoise/yond-gru32n/yond-gru32n.json",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/denoise-yond-gru32n-v1/yond-gru32n.json",
+      "entry": "",
+      "download": 435,
+      "sha256": "b22115fff8c0be6e82b691096e97a3720436db85c630bd3ba59ad4c62630d8a9",
+      "size": 435,
+      "use": "all"
+    },
+    {
+      "component": "denoise",
+      "target": "denoise/yond-gru32n/LICENSE",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/denoise-yond-gru32n-v1/LICENSE",
+      "entry": "",
+      "download": 1067,
+      "sha256": "ee3066157d431d7f42d628b07f0ad5dfdaf7bf4a8f8510a4de8075e44018bdf5",
+      "size": 1067,
+      "use": "all"
+    },
+    {
+      "component": "denoise",
+      "target": "denoise/yond-gru32n/yond-gru32n.fp16.onnx",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/denoise-yond-gru32n-v1/yond-gru32n.fp16.onnx",
+      "entry": "",
+      "download": 22392481,
+      "sha256": "1836fb58b86d9cad85cd867b665facac620968ca62618d9232f66083f0823f6e",
+      "size": 22392481,
+      "use": "gpu"
+    },
+    {
+      "component": "denoise",
+      "target": "denoise/yond-gru32n/yond-gru32n.fp32.onnx",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/denoise-yond-gru32n-v1/yond-gru32n.fp32.onnx",
+      "entry": "",
+      "download": 44727734,
+      "sha256": "45773142cc31034d6bdea912b7ba62d47700e5aa9df3fb7626735884463846c1",
+      "size": 44727734,
+      "use": "cpu"
+    },
+    {
+      "component": "faces",
+      "target": "faces/yunet/yunet.json",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-yunet-v1/yunet.json",
+      "entry": "",
+      "download": 397,
+      "sha256": "89eac19d146cd1aa749a05dc3dd77db131990d20822eb063187bb0bfed809ac6",
+      "size": 397,
+      "use": "all"
+    },
+    {
+      "component": "faces",
+      "target": "faces/yunet/LICENSE",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-yunet-v1/LICENSE",
+      "entry": "",
+      "download": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958",
+      "size": 1085,
+      "use": "all"
+    },
+    {
+      "component": "faces",
+      "target": "faces/yunet/face_detection_yunet_2026may.onnx",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-yunet-v1/face_detection_yunet_2026may.onnx",
+      "entry": "",
+      "download": 229738,
+      "sha256": "ebafce4e3c118d6554634be5c27ab333b4c047a9a8c3faf1d7cf93101c22f0f0",
+      "size": 229738,
+      "use": "all"
+    },
+    {
+      "component": "faces",
+      "target": "faces/easyportrait-segformer-b0-512/easyportrait.json",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-easyportrait-segformer-b0-512-v1/easyportrait.json",
+      "entry": "",
+      "download": 708,
+      "sha256": "67897f607c02a72d5a77cbf10f2c204a84b4b0129b511e8220a901e00dbc7320",
+      "size": 708,
+      "use": "all"
+    },
+    {
+      "component": "faces",
+      "target": "faces/easyportrait-segformer-b0-512/LICENSE.pdf",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-easyportrait-segformer-b0-512-v1/LICENSE.pdf",
+      "entry": "",
+      "download": 157632,
+      "sha256": "14f4845e9c8d3de875cbac4139491da368ab1040a7f565e02894477279134d22",
+      "size": 157632,
+      "use": "all"
+    },
+    {
+      "component": "faces",
+      "target": "faces/easyportrait-segformer-b0-512/segformer_b0_fp_512.onnx",
+      "url": "https://github.com/arenshi/vaata-ai/releases/download/faces-easyportrait-segformer-b0-512-v1/segformer_b0_fp_512.onnx",
+      "entry": "",
+      "download": 15181982,
+      "sha256": "6be671f5cd146ecaebc982d6f2598889e804bb3cb90a619fb95842afb7d22d0b",
+      "size": 15181982,
+      "use": "all"
+    }
+  ]
+}

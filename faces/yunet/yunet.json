@@ -1,0 +1,9 @@
+{
+  "name": "YuNet",
+  "version": "yunet-2026may",
+  "file": "face_detection_yunet_2026may.onnx",
+  "input": "input: 1x3xHxW, BGR 0..255, H and W multiples of 32",
+  "outputs": "cls, obj (1 value), bbox (cx, cy, log w, log h) and kps (5 points) per anchor at strides 8, 16, 32",
+  "licence": "MIT",
+  "source": "https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet"
+}

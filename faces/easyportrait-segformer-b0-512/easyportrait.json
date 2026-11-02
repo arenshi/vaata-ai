@@ -1,0 +1,29 @@
+{
+  "name": "EasyPortrait SegFormer-B0 512",
+  "version": "easyportrait-segformer-b0-512",
+  "file": "segformer_b0_fp_512.onnx",
+  "input": "image: 1x3x512x512, BGR, (v - mean) / std",
+  "mean": [
+    143.55267075,
+    132.96705975,
+    126.94924335
+  ],
+  "std": [
+    60.2625333,
+    60.32740275,
+    59.30988645
+  ],
+  "classes": [
+    "background",
+    "skin",
+    "left brow",
+    "right brow",
+    "left eye",
+    "right eye",
+    "lips",
+    "teeth"
+  ],
+  "licence": "a variant of CC BY-SA 4.0 by SberDevices (LICENSE.pdf); commercial use allowed",
+  "source": "https://github.com/hukenovs/easyportrait",
+  "conversion": "https://huggingface.co/sadzip/EasyPortrait-ONNX"
+}
